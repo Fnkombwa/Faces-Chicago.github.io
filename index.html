@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACES Form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div class="title">Needs Form</div>
+            <form action="mailto:pcarpenter@freindschicago.org" method="POST" enctype="text/plain">
+                <div class="user-details">
+                   <div class="input-box">
+                       <span class="details">Full name</span>
+                       <input type="text" name="YourName" placeholder="Enter your name" required>
+                       
+                   </div> 
+                   <div class="input-box">
+                    <span class="details"> Client name</span>
+                    <input type="text" name="Clientname" placeholder="Enter client name" required>
+                </div>
+                
+                <div class="input-box">
+                    <span class="details">Phone number</span>
+                    <input type="text" name="Phonenumber" placeholder="Client Phone number" required>
+                    <br>
+                    <textarea name="Message" id="" cols="30" rows="5" placeholder=" describe need and include address"></textarea>
+                    <br>
+                    <button class="button" type="submit">Submit</button>
+                </div>
+                </div>
+            </form>
+        </section>
+        
+    </div>
+</body>
+</html>
